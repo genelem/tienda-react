@@ -1,0 +1,68 @@
+/*SECTION HEADER*/
+
+.heading{
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    /*Nosotros, Menu, Productos, Contacto */
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+.header{
+    background: var(--bheader);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 7% 1.5rem 7%;
+    border-bottom: var(--border);
+    position: sticky;
+    left: 0; right: 0;
+    transition: .5s;
+    z-index: 50;
+}
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.7rem;
+    color:#fff;
+} 
+
+.header .logo{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bolder;
+}
+.header .logo span{
+    color: var(--main-color);
+}
+/*.header .navbar{
+    display: flex;
+} */
+.header .navbar a:hover{
+    color:var(--main-color);
+    border-bottom: .5rem solid var(--main-color);
+    padding-bottom: .9rem;
+}
+
+/*Scroll Javascript*/
+header.sticky{
+    background:var(--creme);
+    padding: 1rem 5rem;
+    box-shadow:0 .30rem 1.25rem rgba(0, 0, 0, 0.356);
+    top:0;
+}
+
+header.sticky .navbar a{
+    color: var(--black-letter);
+}
+header.sticky .logo{
+    color: var(--black-letter);
+    opacity: .8;
+}
+/* ----------------------------------- */
