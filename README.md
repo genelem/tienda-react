@@ -69,5 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+
+In the project directory, you can run for a db in JSON-SERVER mode or replace that with fetch or axios:
+
 ### `npm i -g json-server`
 ### `npm json-server --watch db.json`
